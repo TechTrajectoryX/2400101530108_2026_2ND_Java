@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Demo} from './components/Demo'
 import Demo2 from './components/Demo2'
+import Arrow from './components/Arrow'
+import StateEX from './components/States'
 
 function App() {
 //   const name="denial";
@@ -32,18 +34,20 @@ function App() {
 //  else if(op=="*")
 //   return a*b;
 //  }
- function callfun()
-    {
-      alert("Function call");
-    }
-    function callfc()
-    {
-      alert("You click on the apple button");
-    }
-    function callf()
-    {
-      alert("You click on the banana button");
-    }
+//  function callfun()
+//     {
+//       alert("Function call");
+//     }
+//     function callfc()
+//     {
+//       alert("You click on the apple button");
+//     }
+//     function callf()
+//     {
+//       alert("You click on the banana button");
+//     }
+    
+    
   return (
     <div>
     {/* <h1>Hi I am Ritika Singh </h1>
@@ -57,11 +61,13 @@ function App() {
        <h1>{fun()}</h1>
        <h1>example of parameterized function {sum(934,40)}</h1>
        <h1>example of parameterized function {func(9,4,"-")}</h1> */}
-        <h1>Welcome in new Project</h1>
+        {/* <h1>Welcome in new Project</h1>
         <button onClick={callfun}>Click on the button </button>
         <button onClick={callfc}>Apple </button>
         <button onClick={callf}>Banana </button>
-
+        <h1>Example of arrow function</h1> */}
+        {/* <Arrow></Arrow> */}
+           <StateEX></StateEX>
     {/* <Employee></Employee>
     <Sum></Sum>
     <Demo></Demo>
