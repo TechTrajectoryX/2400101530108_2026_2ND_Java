@@ -6,6 +6,8 @@ import {Demo} from './components/Demo'
 import Demo2 from './components/Demo2'
 import Arrow from './components/Arrow'
 import StateEX from './components/States'
+import Hook from './components/Hook'
+import Toggle from './components/Toggle'
 
 function App() {
 //   const name="denial";
@@ -72,6 +74,8 @@ function App() {
     <Sum></Sum>
     <Demo></Demo>
     <Demo2></Demo2> */}
+    <Hook></Hook>
+    <Toggle></Toggle>
     </div>
   
   )
